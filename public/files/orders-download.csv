@@ -1,0 +1,82 @@
+ID,"Payment Status","Placed By","Customer Name","Shipping State","Shipping Address",Remark,Subtotal,Shipping/Freight,Total,Date,"Item ID","Item Name","Item Price","Item Quantity","Item Line Subtotal","Item Discount"
+16,pending,sales-AbhishekV,"V Customer",,,,4541,0,4541,"2022-03-09 17:24:51",25,"Demo Item 2",102,10,1020,
+16,pending,sales-AbhishekV,"V Customer",,,,4541,0,4541,"2022-03-09 17:24:51",26,"Demo Item 3",103,15,1545,
+16,pending,sales-AbhishekV,"V Customer",,,,4541,0,4541,"2022-03-09 17:24:51",27,"Demo Item 4",104,19,1976,
+17,completed,sales-AbhishekV,"V Customer2",,,,3150,0,3150,"2022-03-09 17:25:46",25,"Demo Item 2",102,10,1020,0
+17,completed,sales-AbhishekV,"V Customer2",,,,3150,0,3150,"2022-03-09 17:25:46",27,"Demo Item 4",104,10,1040,0
+17,completed,sales-AbhishekV,"V Customer2",,,,3150,0,3150,"2022-03-09 17:25:46",32,"Demo Item 9",109,10,1090,0
+18,pending,sales-AbhishekDixit,D_CUSTOMER,,,,3110,99,2898,"2022-03-09 17:35:55",25,"Demo Item 2",102,10,1020,
+18,pending,sales-AbhishekDixit,D_CUSTOMER,,,,3110,99,2898,"2022-03-09 17:35:55",27,"Demo Item 4",104,10,1040,
+18,pending,sales-AbhishekDixit,D_CUSTOMER,,,,3110,99,2898,"2022-03-09 17:35:55",28,"Demo Item 5",105,10,1050,
+19,pending,sales-AbhishekDixit,D_Customer01,,,,2050,0,2050,"2022-03-09 15:00:45",25,"Demo Item 2",102,10,1020,
+19,pending,sales-AbhishekDixit,D_Customer01,,,,2050,0,2050,"2022-03-09 15:00:45",26,"Demo Item 3",103,10,1030,
+20,pending,admin,"Demo Item 3",,,,203,0,203,"2022-03-11 07:02:19",24,"Demo Item 1 xx",101,1,101,
+20,pending,admin,"Demo Item 3",,,,203,0,203,"2022-03-11 07:02:19",25,"Demo Item 2",102,1,102,
+21,on-hold,admin,"Demo Item 3",,,,203,0,203,"2022-03-12 06:32:06",24,"Demo Item 1 xx",101,1,101,
+21,on-hold,admin,"Demo Item 3",,,,203,0,203,"2022-03-12 06:32:06",25,"Demo Item 2",102,1,102,
+22,completed,admin,"Demo Item 5",,,,304.2,0,304.2,"2022-03-12 07:56:08",24,"Demo Item 1 xx",101,2,181.8,10
+22,completed,admin,"Demo Item 5",,,,304.2,0,304.2,"2022-03-12 07:56:08",25,"Demo Item 2",102,3,122.4,60
+23,pending,admin,"Demo Item 3",,,,263.4,0,263.4,"2022-03-15 07:18:49",24,"Demo Item 1 xx",101,2,181.8,10
+23,pending,admin,"Demo Item 3",,,,263.4,0,263.4,"2022-03-15 07:18:49",25,"Demo Item 2",102,1,81.6,20
+24,pending,admin,"Demo Item 5",,,,520,20,500,"2022-03-15 18:56:03",25,"Demo Item 2",102,1,102,0
+24,pending,admin,"Demo Item 5",,,,520,20,500,"2022-03-15 18:56:03",26,"Demo Item 3",103,1,103,0
+24,pending,admin,"Demo Item 5",,,,520,20,500,"2022-03-15 18:56:03",27,"Demo Item 4",104,1,104,0
+24,pending,admin,"Demo Item 5",,,,520,20,500,"2022-03-15 18:56:03",28,"Demo Item 5",105,1,105,0
+24,pending,admin,"Demo Item 5",,,,520,20,500,"2022-03-15 18:56:03",29,"Demo Item 6",106,1,106,0
+25,pending,admin,"Demo Item 3",,,,410,0,410,"2022-03-26 06:18:16",24,"Demo Item 1 xx",101,1,101,0
+25,pending,admin,"Demo Item 3",,,,410,0,410,"2022-03-26 06:18:16",25,"Demo Item 2",102,1,102,0
+25,pending,admin,"Demo Item 3",,,,410,0,410,"2022-03-26 06:18:16",26,"Demo Item 3",103,1,103,0
+25,pending,admin,"Demo Item 3",,,,410,0,410,"2022-03-26 06:18:16",27,"Demo Item 4",104,1,104,0
+26,pending,admin,D_CUSTOMER,,,,28000,0,28000,"2022-03-29 17:41:32",49,"Starter (RN Feeds ) (50KG)",1000,10,10000,0
+26,pending,admin,D_CUSTOMER,,,,28000,0,28000,"2022-03-29 17:41:32",50,"Gennex Pre Starter (50KG)",1200,15,18000,0
+27,pending,admin,D_Customer01,,,,4310,0,4310,"2022-03-29 17:49:19",49,"Starter (RN Feeds ) (50KG)",1000,1,950,5
+27,pending,admin,D_Customer01,,,,4310,0,4310,"2022-03-29 17:49:19",50,"Gennex Pre Starter (50KG)",1200,1,1080,10
+27,pending,admin,D_Customer01,,,,4310,0,4310,"2022-03-29 17:49:19",51,"RN Feeds Finisher (50 KG)",1200,1,1140,5
+27,pending,admin,D_Customer01,,,,4310,0,4310,"2022-03-29 17:49:19",52,"RN Feeds Pallets (50 Kg)",1200,1,1140,5
+28,pending,admin,"Demo Item 4",,,,119580,0,119580,"2022-03-29 18:00:39",25,"Demo Item 2",102,10,1020,0
+28,pending,admin,"Demo Item 4",,,,119580,0,119580,"2022-03-29 18:00:39",50,"Gennex Pre Starter (50KG)",1200,10,11760,2
+28,pending,admin,"Demo Item 4",,,,119580,0,119580,"2022-03-29 18:00:39",51,"RN Feeds Finisher (50 KG)",1200,100,106800,11
+29,pending,admin,Ravi2,UP/MP/Chhattisgarh,dvdxvxvx,,47485,0,47485,"2022-03-29 18:14:52",49,"Starter (RN Feeds ) (50KG)",1000,10,10000,0
+29,pending,admin,Ravi2,UP/MP/Chhattisgarh,dvdxvxvx,,47485,0,47485,"2022-03-29 18:14:52",53,"Gennex Feeds Finisher (50 Kg)",1023,15,15345,0
+29,pending,admin,Ravi2,UP/MP/Chhattisgarh,dvdxvxvx,,47485,0,47485,"2022-03-29 18:14:52",55,"Force India HealthCare Product",1230,18,22140,0
+30,completed,sales-AbhishekV,"V Customer",UP/MP/Chhattisgarh,CCCCCCC,RRRRRRRRRRR23,203,20,183,"2022-05-11 16:44:59",24,"Demo Item 1 xx",101,1,101,0
+30,completed,sales-AbhishekV,"V Customer",UP/MP/Chhattisgarh,CCCCCCC,RRRRRRRRRRR23,203,20,183,"2022-05-11 16:44:59",25,"Demo Item 2",102,1,102,0
+31,pending,admin,Ravi2,Bihar/Jharkhand,AAA,BBB,2430,0,2430,"2022-05-23 15:33:28",50,"Gennex Pre Starter (50KG)",1200,1,1200,0
+31,pending,admin,Ravi2,Bihar/Jharkhand,AAA,BBB,2430,0,2430,"2022-05-23 15:33:28",55,"Force India HealthCare Product",1230,1,1230,0
+32,pending,admin,D_Customer01,UP/MP/Chhattisgarh,Shipping,Remark,2565,0,2565,"2022-05-24 14:48:41",25,"Demo Item 2",102,10,1020,0
+32,pending,admin,D_Customer01,UP/MP/Chhattisgarh,Shipping,Remark,2565,0,2565,"2022-05-24 14:48:41",26,"Demo Item 3",103,15,1545,0
+33,processing,admin,D_Customer01,Bihar/Jharkhand,hjhjh,remark,2370,0,2370,"2022-05-24 18:08:27",28,"Demo Item 5",105,12,1260,0
+33,processing,admin,D_Customer01,Bihar/Jharkhand,hjhjh,remark,2370,0,2370,"2022-05-24 18:08:27",34,"Demo Item 11",111,10,1110,0
+34,processing,admin,D_Customer01,UP/MP/Chhattisgarh,address,remark,28230,0,28230,"2022-05-24 18:14:41",51,"RN Feeds Finisher (50 KG)",1200,15,18000,0
+34,processing,admin,D_Customer01,UP/MP/Chhattisgarh,address,remark,28230,0,28230,"2022-05-24 18:14:41",53,"Gennex Feeds Finisher (50 Kg)",1023,10,10230,0
+35,processing,admin,D_Customer01,UP/MP/Chhattisgarh,ship,rem,51636,0,51636,"2022-05-24 18:17:29",52,"RN Feeds Pallets (50 Kg)",1200,13,15600,0
+35,processing,admin,D_Customer01,UP/MP/Chhattisgarh,ship,rem,51636,0,51636,"2022-05-24 18:17:29",53,"Gennex Feeds Finisher (50 Kg)",1023,10,10230,0
+35,processing,admin,D_Customer01,UP/MP/Chhattisgarh,ship,rem,51636,0,51636,"2022-05-24 18:17:29",54,"Gennex Feeds Pallet(50 Kg)",1023,12,12276,0
+35,processing,admin,D_Customer01,UP/MP/Chhattisgarh,ship,rem,51636,0,51636,"2022-05-24 18:17:29",55,"Force India HealthCare Product",1230,11,13530,0
+36,processing,admin,D_Customer01,,bnbnb,mnmnm,3368,0,3368,"2022-05-25 19:22:52",24,"Demo Item 1 xx",101,10,1010,0
+36,processing,admin,D_Customer01,,bnbnb,mnmnm,3368,0,3368,"2022-05-25 19:22:52",25,"Demo Item 2",102,11,1122,0
+36,processing,admin,D_Customer01,,bnbnb,mnmnm,3368,0,3368,"2022-05-25 19:22:52",26,"Demo Item 3",103,12,1236,0
+37,pending,admin,D_Customer01,,cv,cvc,27798,0,27798,"2022-05-25 19:42:39",25,"Demo Item 2",102,11,1122,0
+37,pending,admin,D_Customer01,,cv,cvc,27798,0,27798,"2022-05-25 19:42:39",50,"Gennex Pre Starter (50KG)",1200,12,14400,0
+37,pending,admin,D_Customer01,,cv,cvc,27798,0,27798,"2022-05-25 19:42:39",53,"Gennex Feeds Finisher (50 Kg)",1023,12,12276,0
+38,processing,admin,"Demo Item 20",,c,ccvc,50946,0,50946,"2022-06-01 16:15:59",25,"Demo Item 2",102,10,1020,0
+38,processing,admin,"Demo Item 20",,c,ccvc,50946,0,50946,"2022-06-01 16:15:59",50,"Gennex Pre Starter (50KG)",1200,16,19200,0
+38,processing,admin,"Demo Item 20",,c,ccvc,50946,0,50946,"2022-06-01 16:15:59",53,"Gennex Feeds Finisher (50 Kg)",1023,12,12276,0
+38,processing,admin,"Demo Item 20",,c,ccvc,50946,0,50946,"2022-06-01 16:15:59",55,"Force India HealthCare Product",1230,15,18450,0
+39,processing,admin,"Demo Item 20",,,,1020,0,1020,"2022-06-01 16:16:42",25,"Demo Item 2",102,10,1020,0
+40,processing,admin,D_Customer01,,,,7190,0,7190,"2022-06-02 17:48:07",25,"Demo Item 2",102,20,2040,0
+40,processing,admin,D_Customer01,,,,7190,0,7190,"2022-06-02 17:48:07",26,"Demo Item 3",103,50,5150,0
+41,pending,admin,"Demo Item 3",,cv,cvcv,7110,0,7110,"2022-06-02 17:53:33",24,"Demo Item 1 xx",101,50,5050,0
+41,pending,admin,"Demo Item 3",,cv,cvcv,7110,0,7110,"2022-06-02 17:53:33",25,"Demo Item 2",102,10,1020,0
+41,pending,admin,"Demo Item 3",,cv,cvcv,7110,0,7110,"2022-06-02 17:53:33",27,"Demo Item 4",104,10,1040,0
+42,pending,admin,"Demo Item 14",,,,25379,0,25379,"2022-06-02 18:00:24",24,"Demo Item 1 xx",101,100,10100,0
+42,pending,admin,"Demo Item 14",,,,25379,0,25379,"2022-06-02 18:00:24",25,"Demo Item 2",102,12,1224,0
+42,pending,admin,"Demo Item 14",,,,25379,0,25379,"2022-06-02 18:00:24",26,"Demo Item 3",103,15,1545,0
+42,pending,admin,"Demo Item 14",,,,25379,0,25379,"2022-06-02 18:00:24",27,"Demo Item 4",104,100,10400,0
+42,pending,admin,"Demo Item 14",,,,25379,0,25379,"2022-06-02 18:00:24",28,"Demo Item 5",105,10,1050,0
+42,pending,admin,"Demo Item 14",,,,25379,0,25379,"2022-06-02 18:00:24",29,"Demo Item 6",106,10,1060,0
+43,processing,admin,"Demo Item 15",,,,3080,0,3080,"2022-06-02 18:04:34",24,"Demo Item 1 xx",101,10,1010,0
+43,processing,admin,"Demo Item 15",,,,3080,0,3080,"2022-06-02 18:04:34",26,"Demo Item 3",103,10,1030,0
+43,processing,admin,"Demo Item 15",,,,3080,0,3080,"2022-06-02 18:04:34",27,"Demo Item 4",104,10,1040,0
+44,processing,admin,"Demo Item 10",,,,2540,0,2540,"2022-06-02 18:07:34",24,"Demo Item 1 xx",101,10,1010,0
+44,processing,admin,"Demo Item 10",,,,2540,0,2540,"2022-06-02 18:07:34",25,"Demo Item 2",102,15,1530,0

@@ -1,0 +1,58 @@
+ID,Name,"Company Name","Credit Limit",Address,Mobile,Email,Profile_image,"Pan No.","Pan Front Img","Pan Back Img","Aadhar No.","Aadhar Front Img","Aadhar Back Img","Gst No.","Gst Front Img","Gst Back Img","Gst Third Img","Sales Persone Id"
+86,Gennex,FIHC,500000,Lucknow,7355397047,g@gmail.com,,ffeer4646e,,,"1515 4884 8154",,,11asdad4646a6a6,,,,sales-AbhishekDixit
+85,Ravi2,xyz,1000,ADD,1122336655,admin@gmail.com,uploads/cdXbgJtSNzppSIhWkqA2a0wXomBNF6wS2W3KPi0c.png,ffeer4646e,,,123,,,11asdad4646a6a6,uploads/NArzVCxFbNgy9nu4aUdGPWJXZ6fAid37hBzpl8G0.png,uploads/lbpe3WbKKZNvf652ppyjojJwW1gp2hyfKU9t1UIR.png,uploads/1r8uoylYDEVvkTs17VeMENQNGQ5sCGGdDCxuYfv5.jpg,sales-AbhishekDixit
+84,"Raghav Feeds",,,"Sitapur Road Lucknow",9876543210,ABHI@Gmail.com,uploads/R1i7lwK3mqOiPZCd9AfpoMybBLajfe95ZUddrF52.png,PANNUMBER,,,AADHARNUMBER,,,GSTNUMBER,,,,admin
+83,D_Customer01,sadas,,Barabanki,9795204081,paul.quickfix@gmail.com,uploads/BUDfXkXoKz9DPYBdVfvbHdBl7sjigs4QFovkYj38.png,ssfsd4646d,uploads/DSciJYeRvONKtKtnIBlOMCyoRa8uqvJd73YXmdcs.png,uploads/E3TdruICbzIMCd1JebmypvMVXLfIrcOEOeeZBBFW.png,123,uploads/utg8r5kv8cKSlUOOR0r9qKcQCfSxs3tWYAF9de8g.png,uploads/QdwHwm0lOp796okPfZFIUB3a4GPi5SomUc8GGo5w.png,55,,,,admin
+82,D_CUSTOMER,,,Kanpur,9795204081,admin@gmail.com,uploads/1pPCQzNl9DnEUNsjB4cYUxLR0v38uxj9CmrHlGLl.png,PANNUMBER,uploads/YyAmBPEz5j8I7Mf6fhGzFiPAdC8c9257m4SyPQFT.png,uploads/9TRx9mg9Ae9p6Csggewhmq8LuNKv2NYw4shLjUop.png,222,,,123,,,,admin
+81,"V Customer2",,,"Daliganj SItapur Lucknow",8090030040,av@v.com,,PANNUMBER1,uploads/cKbwkO2MAU5io3yXoFWpg0Xqhoy5zpbQHUR2sCdn.png,uploads/G04qeaxC6m48Z24lqo7GBc3KWpRGVzbCuJVdOMJz.png,AADHARNUMBER2,,,GSTNUMBER2,,,,sales-AbhishekV
+80,"V Customer",,,Daliganj,9616478705,a@vv.com,,PANNUMBER,uploads/r2lVKTz88QJEwfQ1LUlRMzoCSEg122hZCectlqPy.png,uploads/vwoc9pllkkaoJN73XsZdFYf4HyvyhUwG4o6Yp2bF.png,AADHARNUMBER,uploads/CNULTXi683F6QvQQ8HEYvh0zwbRTSNpDjlUhdBKP.png,uploads/C2WYx6ZZUzw9SN91aHCyIP46ZDMwEQ4Es5CXA558.png,GSTNUMBER,uploads/3aPPuTwFUhLHR1coIg1Wn64tpH6urNUpZnWsPWLS.png,uploads/z3H8XMA7t8AtzfXLMMhusAPV9fej0Dq8rCKWwWJg.png,,sales-AbhishekV
+73,"Demo Item 50",,,"demo address 50",11223344550,demo50@gmail.com,,50,,,50,,,50,,,,admin
+72,"Demo Item 49",,,"demo address 49",11223344549,demo49@gmail.com,,49,,,49,,,49,,,,admin
+71,"Demo Item 48",,,"demo address 48",11223344548,demo48@gmail.com,,48,,,48,,,48,,,,admin
+70,"Demo Item 47",,,"demo address 47",11223344547,demo47@gmail.com,,47,,,47,,,47,,,,admin
+69,"Demo Item 46",,,"demo address 46",11223344546,demo46@gmail.com,,46,,,46,,,46,,,,admin
+68,"Demo Item 45",,,"demo address 45",11223344545,demo45@gmail.com,,45,,,45,,,45,,,,admin
+67,"Demo Item 44",,,"demo address 44",11223344544,demo44@gmail.com,,44,,,44,,,44,,,,admin
+66,"Demo Item 43",,,"demo address 43",11223344543,demo43@gmail.com,,43,,,43,,,43,,,,admin
+65,"Demo Item 42",,,"demo address 42",11223344542,demo42@gmail.com,,42,,,42,,,42,,,,admin
+64,"Demo Item 41",,,"demo address 41",11223344541,demo41@gmail.com,,41,,,41,,,41,,,,admin
+63,"Demo Item 40",,,"demo address 40",11223344540,demo40@gmail.com,,40,,,40,,,40,,,,admin
+62,"Demo Item 39",,,"demo address 39",11223344539,demo39@gmail.com,,39,,,39,,,39,,,,admin
+61,"Demo Item 38",,,"demo address 38",11223344538,demo38@gmail.com,,38,,,38,,,38,,,,admin
+60,"Demo Item 37",,,"demo address 37",11223344537,demo37@gmail.com,,37,,,37,,,37,,,,admin
+59,"Demo Item 36",,,"demo address 36",11223344536,demo36@gmail.com,,36,,,36,,,36,,,,admin
+58,"Demo Item 35",,,"demo address 35",11223344535,demo35@gmail.com,,35,,,35,,,35,,,,admin
+57,"Demo Item 34",,,"demo address 34",11223344534,demo34@gmail.com,,34,,,34,,,34,,,,admin
+56,"Demo Item 33",,,"demo address 33",11223344533,demo33@gmail.com,,33,,,33,,,33,,,,admin
+55,"Demo Item 32",,,"demo address 32",11223344532,demo32@gmail.com,,32,,,32,,,32,,,,admin
+54,"Demo Item 31",,,"demo address 31",11223344531,demo31@gmail.com,,31,,,31,,,31,,,,admin
+53,"Demo Item 30",,,"demo address 30",11223344530,demo30@gmail.com,,30,,,30,,,30,,,,admin
+52,"Demo Item 29",,,"demo address 29",11223344529,demo29@gmail.com,,29,,,29,,,29,,,,admin
+51,"Demo Item 28",,,"demo address 28",11223344528,demo28@gmail.com,,28,,,28,,,28,,,,admin
+50,"Demo Item 27",,,"demo address 27",11223344527,demo27@gmail.com,,27,,,27,,,27,,,,admin
+49,"Demo Item 26",,,"demo address 26",11223344526,demo26@gmail.com,,26,,,26,,,26,,,,admin
+48,"Demo Item 25",,,"demo address 25",11223344525,demo25@gmail.com,,25,,,25,,,25,,,,admin
+47,"Demo Item 24",,,"demo address 24",11223344524,demo24@gmail.com,,24,,,24,,,24,,,,admin
+46,"Demo Item 23",,,"demo address 23",11223344523,demo23@gmail.com,,23,,,23,,,23,,,,admin
+45,"Demo Item 22",,,"demo address 22",11223344522,demo22@gmail.com,,22,,,22,,,22,,,,admin
+44,"Demo Item 21",,,"demo address 21",11223344521,demo21@gmail.com,,21,,,21,,,21,,,,admin
+43,"Demo Item 20",,,"demo address 20",11223344520,demo20@gmail.com,,20,,,20,,,20,,,,admin
+42,"Demo Item 19",,,"demo address 19",11223344519,demo19@gmail.com,,19,,,19,,,19,,,,admin
+41,"Demo Item 18",,,"demo address 18",11223344518,demo18@gmail.com,,18,,,18,,,18,,,,admin
+40,"Demo Item 17",,,"demo address 17",11223344517,demo17@gmail.com,,17,,,17,,,17,,,,admin
+39,"Demo Item 16",,,"demo address 16",11223344516,demo16@gmail.com,,16,,,16,,,16,,,,admin
+38,"Demo Item 15",,,"demo address 15",11223344515,demo15@gmail.com,,15,,,15,,,15,,,,admin
+37,"Demo Item 14",,,"demo address 14",11223344514,demo14@gmail.com,,14,,,14,,,14,,,,admin
+36,"Demo Item 13",,,"demo address 13",11223344513,demo13@gmail.com,,13,,,13,,,13,,,,admin
+35,"Demo Item 12",,,"demo address 12",11223344512,demo12@gmail.com,,12,,,12,,,12,,,,admin
+34,"Demo Item 11",,,"demo address 11",11223344511,demo11@gmail.com,,11,,,11,,,11,,,,admin
+33,"Demo Item 10",,,"demo address 10",11223344510,demo10@gmail.com,,10,,,10,,,10,,,,admin
+32,"Demo Item 9",,,"demo address 9",1122334459,demo9@gmail.com,,9,,,9,,,9,,,,admin
+31,"Demo Item 8",,,"demo address 8",1122334458,demo8@gmail.com,,8,,,8,,,8,,,,admin
+30,"Demo Item 7",,,"demo address 7",1122334457,demo7@gmail.com,,7,,,7,,,7,,,,admin
+29,"Demo Item 6",,,"demo address 6",1122334456,demo6@gmail.com,,6,,,6,,,6,,,,admin
+28,"Demo Item 5",,,"demo address 5",1122334455,demo5@gmail.com,,5,,,5,,,5,,,,admin
+27,"Demo Item 4",,,"demo address 4",1122334454,demo4@gmail.com,,4,,,4,,,4,,,,admin
+26,"Demo Item 3",,,"demo address 3",1122334453,demo3@gmail.com,,3,,,3,,,3,,,,admin
+25,"Demo Item 2",,,"demo address 2",1122334452,demo2@gmail.com,,2,,,2,,,2,,,,N/A
+24,"Demo Item 1",,,"demo address 1",1122334451,demo1@gmail.com,,1,,,1,,,1,,,,N/A

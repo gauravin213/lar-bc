@@ -1,0 +1,19 @@
+ID,"Order Id","Customer Name","Placed By","Paid Amount","Ballance Amount","Mode of Payment","Uploaded Receipt",Remark,"Order Total"
+19,17,"V Customer2",sales-AbhishekV,2000,1150,,N/A,,3150
+20,17,"V Customer2",sales-AbhishekV,1050,100,,N/A,,3150
+21,17,"V Customer2",sales-AbhishekV,100,0,,N/A,,3150
+22,16,"V Customer",sales-AbhishekV,541,4000,,N/A,,4541
+23,16,"V Customer",sales-AbhishekV,4000,0,,N/A,,4541
+24,19,D_Customer01,sales-AbhishekDixit,500,1550,,N/A,,2050
+25,21,"Demo Item 3",admin,100,103,,N/A,,203
+26,21,"Demo Item 3",admin,100,3,,N/A,,203
+27,21,"Demo Item 3",admin,3,0,,N/A,,203
+28,22,"Demo Item 5",admin,50,153,,N/A,,304.2
+29,22,"Demo Item 5",admin,100,53,,N/A,,304.2
+30,22,"Demo Item 5",admin,53,0,,N/A,,304.2
+31,24,"Demo Item 5",admin,500,0,,N/A,,500
+32,28,"Demo Item 4",admin,12300,107280,,N/A,,119580
+33,28,"Demo Item 4",admin,107200,80,,N/A,,119580
+34,29,Ravi2,Sales,300,41265.4,Cheque,N/A,dd,47485
+35,29,Ravi2,Sales,41000,265.4,Cheque,http://127.0.0.1/csm/uploads/vpkntoi1sznxsQXOXBsYAN3bqssRCI6k1lOerYU4.png,23/12/2022,47485
+36,29,Ravi2,Sales,100,165.4,Cash,http://127.0.0.1/csm/uploads/BpMTH0vzw5ctsk4pi6WJ2fCEFDjQGN7f72rL5Fvc.png,12/12/2022,47485
