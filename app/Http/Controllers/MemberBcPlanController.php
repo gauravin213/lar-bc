@@ -43,7 +43,7 @@ class MemberBcPlanController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'member_id' => 'required'
+            'group_id' => 'required'
         ]);
 
         //

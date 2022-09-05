@@ -108,7 +108,7 @@
             <th>ID</th>
             <th>Name</th>
             <th>Email</th>
-            <th>Role</th>
+          <!--   <th>Role</th> -->
             <th colspan="2">Action</th>
           </tr>
         </thead>
@@ -120,7 +120,7 @@
             <td>{{$user->id}}</td>
             <td>{{$user->name}}</td>
             <td>{{$user->email}}</td>
-            <td>{{$user->user_type}}</td>
+           <!--  <td>{{$user->user_type}}</td> -->
             <td>
               <a class="btn btn-primary" href="{{ route('users.edit',$user->id) }}"><i class="fas fa-edit"></i></a>  
               {!! Form::open(['class' => 'mydeleteform_'.$user->id, 'method' => 'DELETE','route' => ['users.destroy', $user->id],'style'=>'display:inline']) !!}

@@ -48,7 +48,7 @@
             <input type="text" name="password" class="form-control" id="password" placeholder="Enter password" value="{{$user->password}}">
           </div>
 
-          <div class="form-group">
+         <!--  <div class="form-group">
             <label for="exampleInputEmail1">Role</label>
             <select name="user_type" id="user_type" class="form-control" >
               <option value="">select</option>
@@ -65,7 +65,7 @@
           <div class="form-group">
             <label for="exampleInputEmail1">Alternate Mobile No.</label>
             <input type="text" name="mobile_alternate" class="form-control" id="mobile_alternate" placeholder="Enter Alternate mobile No." value="{{$user->mobile_alternate}}">
-          </div>
+          </div> -->
 
         </div>
         <!-- /.card-body -->

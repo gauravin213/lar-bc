@@ -31,7 +31,7 @@
             <th>#</th>
             <th>Group</th>
             <th>Member</th>
-            <th>Bc</th>
+            <th>Bc Plan</th>
             <th>Emi Amount</th>
             <th colspan="2">Action</th>
           </tr>

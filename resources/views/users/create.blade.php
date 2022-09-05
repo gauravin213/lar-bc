@@ -48,16 +48,16 @@
             <input type="text" name="password" class="form-control" id="password" placeholder="Enter password">
           </div>
 
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label for="exampleInputEmail1">Role</label>
             <select name="user_type" id="user_type" class="form-control" >
               <option value="">select</option>
               <option value="administrator">Administrator</option>
               <option value="sales_man">Sales Man</option>
             </select>
-          </div>
+          </div> -->
 
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label for="exampleInputEmail1">Mobile No.</label>
             <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Enter mobile No.">
           </div>
@@ -65,7 +65,7 @@
           <div class="form-group">
             <label for="exampleInputEmail1">Alternate Mobile No.</label>
             <input type="text" name="mobile_alternate" class="form-control" id="mobile_alternate" placeholder="Enter Alternate mobile No.">
-          </div>
+          </div> -->
 
         </div>
         <!-- /.card-body -->

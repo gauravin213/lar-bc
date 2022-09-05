@@ -70,9 +70,9 @@ class UserController extends Controller
         $user->name = $request->name;
         $user->email = $request->email;
         $user->password = bcrypt($request->password);
-        $user->user_type = $request->user_type;
-        $user->mobile = $request->mobile;
-        $user->mobile_alternate = $request->mobile_alternate;
+        $user->user_type = 'administrator'; //$request->user_type;
+       /* $user->mobile = $request->mobile;
+        $user->mobile_alternate = $request->mobile_alternate;*/
         $user->save();
         return redirect()->route('users.index')->with('success','User added successfully');
     }
@@ -118,9 +118,9 @@ class UserController extends Controller
         $user->name = $request->name;
         $user->email = $request->email;
         //$user->password = $request->password;
-        $user->user_type = $request->user_type;
-        $user->mobile = $request->mobile;
-        $user->mobile_alternate = $request->mobile_alternate;
+        $user->user_type = 'administrator'; //$request->user_type;
+        /*$user->mobile = $request->mobile;
+        $user->mobile_alternate = $request->mobile_alternate;*/
         $user->update();
         return redirect()->route('users.index')->with('success','User updated successfully');
     }

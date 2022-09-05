@@ -44,7 +44,7 @@
             </select>
           </div>
 
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label for="exampleInputEmail1">Member</label>
             <select name="member_id" class="form-control" id="member_id">
               <option>select</option>
@@ -52,7 +52,7 @@
               <option value="{{$members->id}}" {{($members->id == $memberBcPlan->member_id ) ? 'selected' : ''}} >{{$members->name}}</option>
               @endforeach
             </select>
-          </div>
+          </div> -->
 
           <div class="form-group">
             <label for="exampleInputEmail1">Bc</label>
@@ -64,10 +64,10 @@
             </select>
           </div>
 
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label for="exampleInputEmail1">Emi Amount</label>
             <input type="text" name="emi_amount" class="form-control" id="emi_amount" placeholder="Enter emi_amount" value="{{$memberBcPlan->emi_amount}}">
-          </div>
+          </div> -->
 
 
         </div>
