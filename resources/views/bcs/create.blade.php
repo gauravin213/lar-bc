@@ -52,10 +52,10 @@
             <input type="text" name="commission_amount" class="form-control" id="commission_amount" placeholder="Enter commission_amount">
           </div>
 
-          <div class="form-group">
+          <!-- <div class="form-group">
             <label for="exampleInputEmail1">Total Bc Amount</label>
             <input type="text" name="total_bc_amount" class="form-control" id="total_bc_amount" placeholder="Enter total_bc_amount">
-          </div>
+          </div> -->
 
 
           <div class="form-group">

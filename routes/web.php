@@ -66,6 +66,7 @@ Route::group(['namespace' => 'Admin', 'prefix' => 'admin', 'middleware' => 'auth
 	Route::resource('bcs', '\App\Http\Controllers\BcController');
 	Route::resource('group-bc-relations', '\App\Http\Controllers\GroupBcRelationController');
 	Route::resource('member-bc-plans', '\App\Http\Controllers\MemberBcPlanController');
+	Route::resource('payments', '\App\Http\Controllers\PaymentController');
 	
 
 	

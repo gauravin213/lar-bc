@@ -285,6 +285,17 @@ scratch. This page gets rid of all links and provides the needed markup only.
             </a>
           </li>
 
+          <li class="nav-item">
+            <a href="{{ url('admin/payments') }}" class="nav-link {{ (request()->segment(2) == 'payments') ? 'active' : ''  }}">
+              <i class="nav-icon fas fa-th"></i>
+              <p>
+                Payments
+              </p>
+            </a>
+          </li>
+
+
+
           <!-- <li class="nav-item">
             <a href="{{ url('admin/group-bc-relations') }}" class="nav-link {{ (request()->segment(2) == 'group-bc-relations') ? 'active' : ''  }}">
               <i class="nav-icon fas fa-th"></i>
