@@ -45,20 +45,24 @@ class BcController extends Controller
         ]);
 
         //
-        $member_count = Member::where('group_id', $request->group_id)->count();
-        $total_grosss_amount = $request->gross_amount - $request->loss_amount;
-        $total_bc_amount =  $total_grosss_amount / $member_count;
-        $calculate_commision_amount = ( $total_bc_amount * $request->commission_amount ) / 100;
-        $emi_amount = $total_bc_amount + $calculate_commision_amount;
+        $gross_amount = $request->gross_amount;
+        $loss_amount = $request->loss_amount;
+        $commission_amount = $request->commission_amount;
+        $group_id = $request->group_id;
+        $title = $request->title;
+        $member_count = Member::where('group_id', $group_id)->count();
+        $total_grosss_amount = $gross_amount - $loss_amount;
+        $calculate_commision_amount = ( $gross_amount * $commission_amount ) / 100;
+        $total_bc_amount =   ( $total_grosss_amount / $member_count ) + $calculate_commision_amount;
         //
 
         $bc = new Bc();
-        $bc->group_id = $request->group_id;
-        $bc->title = $request->title;
-        $bc->gross_amount = $request->gross_amount;
-        $bc->loss_amount = $request->loss_amount;
-        $bc->commission_amount = $request->commission_amount;
-        $bc->total_bc_amount = $emi_amount; //$request->total_bc_amount;
+        $bc->group_id = $group_id;
+        $bc->title = $title;
+        $bc->gross_amount = $gross_amount;
+        $bc->loss_amount = $loss_amount;
+        $bc->commission_amount = $commission_amount;
+        $bc->total_bc_amount = $total_bc_amount;
         $bc->save();
         return redirect()->route('bcs.index')->with('success','Bc added successfully');
     }
@@ -99,20 +103,24 @@ class BcController extends Controller
             'group_id' => 'required'
         ]);
 
-        //
-        $member_count = Member::where('group_id', $request->group_id)->count();
-        $total_grosss_amount = $request->gross_amount - $request->loss_amount;
-        $total_bc_amount =  $total_grosss_amount / $member_count;
-        $calculate_commision_amount = ( $total_bc_amount * $request->commission_amount ) / 100;
-        $emi_amount = $total_bc_amount + $calculate_commision_amount;
+       //
+        $gross_amount = $request->gross_amount;
+        $loss_amount = $request->loss_amount;
+        $commission_amount = $request->commission_amount;
+        $group_id = $request->group_id;
+        $title = $request->title;
+        $member_count = Member::where('group_id', $group_id)->count();
+        $total_grosss_amount = $gross_amount - $loss_amount;
+        $calculate_commision_amount = ( $gross_amount * $commission_amount ) / 100;
+        $total_bc_amount =   ( $total_grosss_amount / $member_count ) + $calculate_commision_amount;
         //
 
-        $bc->group_id = $request->group_id;
-        $bc->title = $request->title;
-        $bc->gross_amount = $request->gross_amount;
-        $bc->loss_amount = $request->loss_amount;
-        $bc->commission_amount = $request->commission_amount;
-        $bc->total_bc_amount = $emi_amount; //$request->total_bc_amount;
+        $bc->group_id = $group_id;
+        $bc->title = $title;
+        $bc->gross_amount = $gross_amount;
+        $bc->loss_amount = $loss_amount;
+        $bc->commission_amount = $commission_amount;
+        $bc->total_bc_amount = $total_bc_amount;
         $bc->update();
         
         return redirect()->route('bcs.index')->with('success','Bc updated successfully');

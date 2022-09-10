@@ -463,7 +463,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!--jquery.mask.js-->
 <script src="{{ asset('js/jquery.mask.js') }}"></script>
 
-
 <!-- Ekko Lightbox -->
 <script src="{{ asset('admin-lte-3.1.0-rc/plugins/ekko-lightbox/ekko-lightbox.min.js') }}"></script>
 <script>
@@ -482,6 +481,10 @@ jQuery(document).ready(function(){
   });
 });
 </script>
+
+
+<!--custom.js-->
+<!-- <script src="{{ asset('js/custom.js') }}"></script> -->
 
 
 <!--model-->
@@ -1207,6 +1210,51 @@ function validateAadhaar(){
     gst_no_img.src = URL.createObjectURL(event.target.files[0]);
   };
 </script> -->
+
+
+
+<script type="text/javascript">
+/*
+*  Custom js
+*/
+jQuery(document).ready(function(){
+
+
+  //Get bc plan by menber
+  jQuery(document).on('change', '#member_id', function(e) {
+    e.preventDefault();
+    var target = jQuery(this);
+
+    var member_id = target.find(':selected').val();
+
+    console.log('member_id: ', member_id);
+
+  jQuery.ajax({
+    url: "{{ url('payments/get_bc_plan_by_member') }}",
+    type: "POST",
+    data:  {
+        member_id: member_id, // search query
+        _token: "{{ csrf_token() }}",
+     },
+    dataType: 'json',
+    //contentType: false,
+    //processData:false,
+    beforeSend: function(){
+    },
+    complete: function(){
+    },
+    success: function(data){
+
+      console.log('data: ', data);
+      
+    }       
+  });
+    
+  });
+
+
+});
+</script>
 
 </body>
 </html>

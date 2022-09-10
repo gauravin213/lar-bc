@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Models\Payment;
 use App\Models\Member;
+use App\Models\Bc;
 use App\Models\MemberBcPlan;
+
 use Illuminate\Http\Request;
 
 class PaymentController extends Controller
@@ -111,5 +113,16 @@ class PaymentController extends Controller
     {
         $payment->delete();
         return redirect()->route('payments.index')->with('success','Payment deleted successfully');
+    }
+
+
+    /*
+    * Add item ajax
+    */
+    public function get_bc_plan_by_member(Request $request)
+    {      
+        $member_id = $request->member_id;
+        $memberBcPlans = MemberBcPlan::with('bc')->where('member_id', $member_id)->get();
+        return response()->json($memberBcPlans);
     }
 }
